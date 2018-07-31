@@ -1,0 +1,130 @@
+@charset "utf-8";
+header{
+	display:none;
+}
+
+/* logo及其导航 */
+.logo{
+	display: none;
+}
+/* banner */
+.swiper-container {
+	width: 100%;
+	height: 100%;
+  margin: 0px auto;
+}
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 内容1 关于我们 */
+.conent2{
+	display: none;
+}
+.conent1{
+	display: block;
+}
+.conent1{
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	margin-top: 0.65rem;
+}
+.conent1 .top{
+	font-size: 0;
+	height: 1.45rem;
+	overflow: hidden;
+	line-height: 1.45rem;
+	border-bottom: 0.05px solid #828280;
+}
+.conent1 .top h3{
+	font-size: 0.5rem;
+}
+.conent1 .top .con1_wz i,a{
+	color: #474747;
+	font-size: 0.3rem;
+	font-style: normal;
+	display: inline-block;
+}
+.conent1 .bottom{
+	margin-top: 0.4rem;
+}
+.conent1 .bottom p{
+	color: #4F4F4F;
+	text-indent: 2em;
+	font-size: 0.35rem;
+	line-height: 0.85rem;
+}
+/* 内容2推荐产品 */
+.chanpin1{
+	display: block;
+}
+.chanpin2{
+	display: none;
+}
+.chanpin1{
+	margin-left: 1.5rem;
+	margin-top: 0.65rem;
+	margin-right: 1.5rem;
+}
+.chanpin1 .top{
+	font-size: 0;
+	height: 1.45rem;
+	overflow: hidden;
+	line-height: 1.45rem;
+	border-bottom: 0.05px solid #828280;
+}
+.chanpin1 .top h3{
+	font-size: 0.5rem;
+}
+.chanpin1 .bottom{
+	overflow:hidden;
+	margin-left: 1.5rem;
+	margin-bottom: 1.5rem;
+	margin-top: 0.85rem;
+}
+.chanpin1 .bottom li{
+	float: left;
+	width: 23%;
+	margin: 0 auto;
+	position: relative;
+	margin-right: 0.5rem;
+	margin-bottom: 0rem;
+	border:1px solid #E7E7E7;
+}
+.chanpin1 .bottom li:nth-child(2n){
+	margin-right: 0.5rem;
+	float: left;
+}
+.chanpin1 .bottom li:nth-child(4){
+	margin-right: 0;
+}
+.chanpin1 .bottom li .img>img{
+	width: 6.75rem;
+	height: 6.75rem;
+	margin: 0 auto;
+	display: block;
+}
+.chanpin1 .bottom li p{
+	color: #fff;
+	font-size: 0.35rem;
+	padding: 0.5rem 0.2rem;
+	background-color: #FDA631;;
+}
+
+/* footer底部信息 */
+.foo{
+	display: none;
+}
+.foo1{
+	display: block;
+}
+.foo1{
+	padding-top: 1rem;
+	background-color: #333333;
+}
+.foo1 .foo_rt>img{
+	width: 25%;
+	height: 25%;
+	display: inline-block;
+}

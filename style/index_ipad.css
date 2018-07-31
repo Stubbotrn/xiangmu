@@ -1,0 +1,85 @@
+@charset "utf-8";
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+.header{
+	display:none;
+}
+/* logo及其导航 */
+.logo{
+	display: none;
+}
+
+
+/* banner */
+.swiper-container {
+	width: 100%;
+	height: 100%;
+  margin: 0px auto;
+}
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+/* 关于我们 */
+.about{
+	display: none;
+}
+.about1{
+	display: block;
+}
+
+/*产品展示  */
+
+.chpin1{
+	display: block;
+}
+.cs{
+	display: none;
+}
+.tc{
+	display: none;
+}
+.tc1{
+	display: block;;
+}
+
+/* 客户见证 */
+
+
+.cust1{
+	display: block;
+}
+.cust{
+	display: none;
+}
+.cust1>img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer底部信息 */
+.foo{
+	display: none;
+}
+.foo1{
+	display: block;
+}
+.foo1{
+	padding-top: 1rem;
+	background-color: #333333;
+}
+.foo1 .foo_rt>img{
+	width: 25%;
+	height: 25%;
+	display: inline-block;
+}

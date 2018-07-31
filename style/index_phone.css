@@ -1,0 +1,265 @@
+@charset "utf-8";
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+.header{
+	display: none;
+	width: 100%;
+}
+/* logo及其导航 */
+.logo{
+	display: none;
+}
+.nav1{
+	display: block;
+}
+.nav1 img{
+	height: 2.5rem;
+	width: 11.25rem;
+}
+.nav1 h1{
+	float: left;
+}
+.nav1 .icon-caidan{
+	float: right;
+	margin-top: 0.8rem;
+	margin-right: 0.25rem;
+}
+.nav1{
+	position: relative;
+}
+.nav1 .nav1_dh{
+	z-index: 3;
+	display: none;
+	position: absolute;
+	top: 2.5rem;right: 0;
+}
+.nav1 .nav1_dh{
+	width: 20%;
+	text-align: center;
+	background-color: #FF6D00;
+}
+.nav1 .nav1_dh>li{
+	font-size: 0;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	border-bottom: 0.025rem solid #ccc;
+}
+.nav1 .nav1_dh>li a{
+	color: #fff;
+	height: 1.5rem;
+	font-size:0.75rem;
+	line-height: 1.5rem;
+	display: inline-block;
+}
+
+/* banner */
+.swiper-container {
+		    width: 100%;
+		    height: 11.725rem;
+        margin: 0px auto;
+		}
+		.swiper-container img{
+			width: 100%;
+			height: 11.725rem;
+		}
+
+/* 关于我们 */
+.about{
+	display: none;
+}
+.about1{
+	display: block;
+}
+.about1 .gywm img{
+	width: 100%;
+}
+.about1 .abt{
+	background-color: #F6F6F6;
+}
+/* .about1 .abt .abt_rt{
+	background:url('../images/cp1.png') no-repeat left center /cover;
+} */
+.about1 .abt .abt_rt{
+	padding: 0.5rem 0.5rem;
+}
+.about1 .abt .abt_rt h3{
+	height: 1rem;
+	color: #FC9202;
+	font-weight: bold;
+	font-size: 0.4rem;
+	line-height: 1rem;
+}
+.about1 .abt .abt_rt p{
+	text-indent: 2em;
+	font-size: 0.3rem;
+	line-height: 1rem;
+}
+.about1 .abt .abt_rt a{
+	color: #4BA6EE;
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+/* 产品展示 */
+.chpin1{
+	display: block;
+}
+.cs{
+	display: none;
+}
+.chpin1 .chanpin img{
+	width: 100%;
+}
+.chpin1 .bottom{
+	margin-right: 0.25rem;
+	margin-left: 0.25rem;
+	margin-top: 0.85rem;
+}
+.chpin1 .bottom>li{
+	float: left;
+	width: 48%;
+	margin-bottom: 0.5rem;
+	position: relative;
+	border:0.1rem solid #FDA631;
+}
+.chpin1 .bottom>li:nth-child(2n){
+	margin-right: 0;
+	float: right;
+}
+
+.chpin1 .bottom>li .img>img{
+	width: 60%;
+	height: 60%;
+	margin: 0 auto;
+	display: block;
+}
+.chpin1 .bottom>li p{
+	color: #fff;
+	height: 3.2rem;
+	overflow:hidden;
+	font-size: 0.35rem;
+}
+.chpin1 .bottom>li .jieshao{
+	overflow: hidden;
+	padding: 0.3rem 0.1rem;
+	background-color: #FDA631;
+}
+.chpin1 .bottom>li .jieshao a{
+	color: #075198;
+	font-size: 0.35rem;
+}
+.chpin1 .fenlei li{
+	width: 48%;
+	float: left;
+	height: 1rem;
+	font-size: 0;
+	text-align: center;
+	line-height: 1rem;
+	margin-bottom: 0.5rem;
+	display: inline-block;
+	background-color:  #FDA631;
+}
+.chpin1 .fenlei>li:nth-child(2n){
+	float: right;
+}
+.chpin1 .fenlei li a{
+	color: #fff;
+	font-size: 0.35rem;
+
+}
+/* 突出产品 */
+.tc{
+	display: none;
+}
+.tc1{
+	display: block;
+}
+.tc1{
+	margin-top: 0.5rem;
+	width: 100%;
+}
+.tc1>img{
+	width: 100%;
+	
+}
+
+/* 客户见证 */
+.cust1{
+	display: block;
+}
+.cust{
+	display: none;
+}
+.cust1>img{
+	width: 100%;
+}
+.cust1 .test{
+	width: 100%;
+	margin-top: 0.3rem;
+
+}
+.cust1 .test li{
+	width: 45%;
+	float: left;
+	margin-left: 3%;
+	cursor: pointer;
+	padding-bottom: 0.3rem;
+	margin-bottom: 0.5rem;
+	border:1px solid #DEDEDE;
+}
+.cust1 .test li>a{
+	color: #445157;
+}
+.cust1 .test .test1>img{
+	width: 60%;
+	height: 60%;
+	margin: 0 auto;
+	display: block;
+}
+.cust1 .test .test2{
+	color: #445157;
+	text-indent: 2em;
+	font-size: 0.35rem;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+}
+.cust1 .test .test2 a{
+	color: #0163B0;
+}
+/* 友情链接 */
+.link{
+	display: none;
+}
+.link1{
+	display: block;
+}
+
+.link1>img{
+	width: 3.775rem;
+	height: 3.775rem;
+	margin-left: 1rem;
+}
+		/* footer底部信息 */
+.foo{
+	display: none;
+}
+.foo1{
+	display: block;
+}
+.foo1{
+	padding-top: 0.5rem;
+	background-color: #333333;
+}
+.foo1 .foo_rt{
+	text-align: center;
+}
+.foo1 .foo_rt>img{
+	width: 20%;
+	height: 20%;
+	display: inline-block;
+}
+.foo1 .foo_rt p{
+	color: #fff;
+	font-size: ;
+}
